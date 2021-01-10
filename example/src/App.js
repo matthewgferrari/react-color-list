@@ -28,7 +28,7 @@ var examples = [{
   const [colors, setColors] = useState(["#011f4b","#03396c","#005b96","#6497b1","#b3cde0"])
   return (
       <div style={{ width: "2rem", padding: "2rem" }}>
-		<ColorList colors = {colors} animationLength={.5} animationOffset = {.5} loadFromLeft flipAddButton />
+		<ColorList colors = {colors} onChange={(c) => setColors(c)} animationLength={.5} animationOffset = {.5} loadFromLeft flipAddButton />
       </div>
   );
 }`,
@@ -110,7 +110,7 @@ var examples = [{
 ]
 
 const HeaderList = () => {
-	const [colors, setColors] = useState(["rgb(0, 90, 49)", "rgb(0, 112, 61)", "rgb(255, 140, 1)", "rgb(255, 107, 24)"])
+	const [colors, setColors] = useState(["#4c837e", "#7ec49e", "#ffad2e"])
 	const { enqueueSnackbar } = useSnackbar();
 	return (
 		<ColorList colors={colors} onChange={(c) => setColors(c)}
@@ -142,7 +142,7 @@ function App() {
 			<div style={{ display: "flex", alignItems: "flex-end", justifyContent: "center", marginBottom: ".75rem" }}>
 				<HeaderList />
 
-				<div style={{ paddingLeft: "1rem" }}>
+				<div style={{ paddingLeft: ".75rem" }}>
 					<h1 style={{ padding: "0", margin: "0", fontSize: "2.5rem" }}>React-Color-List</h1>
 					<h3 style={{ padding: "0", margin: "0" }}>A full color palette manager for React</h3>
 				</div>
