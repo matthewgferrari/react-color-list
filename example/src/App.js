@@ -65,6 +65,36 @@ var examples = [{
 },
 {
 	code: `function App() {
+  const [colors, setColors] = useState(["#9381FF", "#B8B8FF", "#DCD3EE", "#EED6D6", "#FFD8BE"])
+  return (
+      <div style={{ width: "2rem", padding: "2rem" }}>
+		<ColorList colors = {colors}  onChange={(c) => setColors(c)} 
+		swatchLabelProps = {{
+			style:{fontSize:"2rem"}
+		}}
+		addButtonProps= {{
+			style:{backgroundColor:"orange"}
+		}}
+		containerProps = {{
+			style:{backgroundColor:"red", padding:"1rem", borderRadius:".5rem"}
+		}}
+		popoverProps = {{
+			elevation:23,  
+			anchorOrigin:{ vertical: 'bottom', horizontal: 'center' },
+			transformOrigin:{ vertical: 'top', horizontal: 'center' },
+			PaperProps:{ 
+				style: {border:"red solid 2px", backgroundColor:"pink"}
+			},
+			transitionDuration:1000
+		}}
+		/>
+      </div>
+  );
+}`,
+	title: "Modify Components with Prop Parameters"
+},
+{
+	code: `function App() {
   const [colors, setColors] = useState(["rgb(191,64,64)","rgb(171,63,63)","rgb(159,55,55)","rgb(141,52,52)"])
   return (
       <div style={{ width: "2rem", padding: "2rem" }}>
