@@ -1,4 +1,4 @@
-<h1  align="center"><img  width = "50px"  src = "https://raw.githubusercontent.com/matthewgferrari/react-color-list/main/example/colorsList.png"/>React-Color-List</h1>
+<h1  align="center"><img  width = "55px"  src = "https://raw.githubusercontent.com/matthewgferrari/react-color-list/main/example/colorsList.png"/> React-Color-List</h1>
 <div  align="center">
 <h4  align = "center">A full color palette manager for React</h4>
 
