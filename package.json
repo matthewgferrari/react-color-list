@@ -1,0 +1,54 @@
+{
+  "name": "react-color-list",
+  "version": "1.0.3",
+  "description": "A color list manager for React",
+  "main": "index.js",
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-class-properties"
+    ]
+  },
+  "scripts": {
+    "build": "rm -rf dist && mkdir dist &&  babel src/. -d dist --copy-files"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewgferrari/react-color-list.git"
+  },
+  "keywords": [
+    "color",
+    "colors",
+    "picker",
+    "react"
+  ],
+  "author": "Matthew Ferrari",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matthewgferrari/react-color-list/issues"
+  },
+  "homepage": "https://github.com/matthewgferrari/react-color-list#readme",
+  "dependencies": {
+    "@material-ui/core": "^4.11.2",
+    "array-move": "^3.0.1",
+    "color-convert": "^2.0.1",
+    "framer-motion": "^3.1.4",
+    "lodash": "^4.17.20",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-pose": "^4.0.10",
+    "react-sortable-hoc": "^1.11.0",
+    "reactcss": "^1.2.3",
+    "tinycolor2": "^1.4.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/preset-react": "^7.12.10",
+    "eslint": "^7.17.0",
+    "eslint-plugin-react": "^7.22.0"
+  }
+}

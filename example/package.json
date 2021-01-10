@@ -1,0 +1,45 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "homepage": ".",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.1.2",
+    "@testing-library/user-event": "^12.2.2",
+    "notistack": "^1.0.3",
+    "prism-react-renderer": "^1.1.1",
+    "react": "^17.0.1",
+    "react-app-polyfill": "^2.0.0",
+    "react-color-list": "^1.0.4",
+    "react-dom": "^17.0.1",
+    "react-live": "^2.2.3",
+    "react-scripts": "4.0.0",
+    "styled-components": "^5.2.1",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "ie 11",
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

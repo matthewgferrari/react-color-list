@@ -1,0 +1,68 @@
+.colorPickerInput {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  }
+  
+  .colorSwatchCard {
+    flex-grow: 1;
+    height: 75px;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    /* position: absolute; */
+    /* bottom: 0; */
+    margin-top: 20px;
+  }
+  .colorSwatchCard.hoverable {
+    cursor: pointer;
+  }
+  
+  .colorSwatchCardContainer:hover > .colorSwatchCard.hoverable {
+    height: 90px;
+    margin-top: 5px;
+    border-top-left-radius: 0.3rem;
+    border-top-right-radius: 0.3rem;
+  }
+  .colorSwatchCardContainer {
+    position: relative;
+    /* width: 90px; */
+    /* margin-left: 2px;
+    margin-right: 2px; */
+    height: 100;
+    flex-grow: 1;
+    background-color: transparent;
+  }
+  .colorSwatchContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+  }
+  .colorSwatchContainerWrapper.dragging > * {
+    cursor: grabbing !important;
+  }
+  .colorPickerPopup {
+    padding: 0 !important;
+  }
+  
+  .colorSwatchContainerWrapper {
+    overflow: hidden;
+    width: max-content;
+    display: inline-block;
+  }
+  
+  .colorSwatchWrapper {
+    z-index: 1300 !important;
+  }
+  
+  .colorSwatchLabel {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    line-height: 1.75;
+    letter-spacing: 0.02857em;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  

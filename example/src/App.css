@@ -1,0 +1,71 @@
+/* .codeSpace{
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+.coding > div{
+  border-radius: .6rem !important;
+}
+.coding{
+  margin-bottom: 1rem;
+}
+
+.error > pre{
+  padding: 1rem;
+  word-wrap:break-word;
+  white-space: pre-wrap;  
+}
+
+ */
+body{
+  background-color: rgb(250, 223, 224);
+}
+.editor{
+  font-family: "Source Code Pro", monospace;
+  font-size: 0.875rem;
+  height: 12rem;
+  max-height: 12rem;
+  overflow: auto;
+  flex-basis: 50%;
+  width: 50%;
+  max-width: 50%;
+}
+.editorInner{
+  position: relative;
+  text-align: left;
+  box-sizing: border-box;
+  padding: 0;
+  overflow: hidden;
+  white-space: pre;
+  font-family: monospace;
+  min-height: 12rem;
+}
+.wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  -webkit-box-align: stretch;
+  align-items: stretch;
+  height: 12rem;
+  max-height: 12rem;
+}
+.preview{
+  position: relative;
+  padding: 0.5rem;
+  background: white;
+  color: black;
+  height: auto;
+  overflow: hidden;
+  flex-basis: 50%;
+  width: 50%;
+  max-width: 50%;
+}
+.error {
+  display: block;
+  padding: 0.5rem;
+  background: rgb(255, 85, 85);
+  color: rgb(248, 248, 242);
+  white-space: pre-wrap;
+  text-align: left;
+  font-size: 0.9em;
+  font-family: "Source Code Pro", monospace;
+}
