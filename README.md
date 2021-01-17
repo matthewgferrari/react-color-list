@@ -24,7 +24,7 @@ npm install react-color-list
 ## Usage
 ```sh
 import React, { useState } from "react"
-import ColorList from "reactc-color-list"
+import ColorList from "react-color-list"
 
 function App() {
 const [colors, setColors] = useState(["#bf4040","#ab3f3f","#9f3737","#8d3434","#812929"])
