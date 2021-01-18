@@ -36,7 +36,7 @@ return <ColorList colors={colors} colorFormat="hex" onChange={(c) => setColors(c
 
 ## Props
 
-| Hello | Type  |Required? | Default | Description|
+| Prop Name | Type  |Required? | Default | Description|
 |--|--|--|--|--|
 |colors | array of colors | required | none | Colors displayed by list|
 onChange | function| required| none| New list of colors and event that triggered change

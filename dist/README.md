@@ -1,4 +1,4 @@
-<h1  align="center"><img  width = "50px"  src = "https://matthewgferrari.github.io/react-color-list/example/colorList.png"/>React-Color-List</h1>
+<h1  align="center"><img  width = "55px"  src = "https://raw.githubusercontent.com/matthewgferrari/react-color-list/main/example/colorsList.png"/> React-Color-List</h1>
 <div  align="center">
 <h4  align = "center">A full color palette manager for React</h4>
 
@@ -24,7 +24,7 @@ npm install react-color-list
 ## Usage
 ```sh
 import React, { useState } from "react"
-import ColorList from "reactc-color-list"
+import ColorList from "react-color-list"
 
 function App() {
 const [colors, setColors] = useState(["#bf4040","#ab3f3f","#9f3737","#8d3434","#812929"])
@@ -36,7 +36,7 @@ return <ColorList colors={colors} colorFormat="hex" onChange={(c) => setColors(c
 
 ## Props
 
-| Hello | Type  |Required? | Default | Description|
+| Prop Name | Type  |Required? | Default | Description|
 |--|--|--|--|--|
 |colors | array of colors | required | none | Colors displayed by list|
 onChange | function| required| none| New list of colors and event that triggered change

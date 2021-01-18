@@ -14,7 +14,7 @@ export const Chrome = ({ width, onChange, disableAlpha, rgb, hsl, hsv, hex, rend
     'default': {
       picker: {
         width,
-        background: '#fff',
+        background: 'transparent',
         borderRadius: '2px',
        // boxShadow: '0 0 2px rgba(0,0,0,.3), 0 4px 8px rgba(0,0,0,.3)',
         boxSizing: 'initial',

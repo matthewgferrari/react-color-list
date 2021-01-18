@@ -1,6 +1,6 @@
 {
   "name": "react-color-list",
-  "version": "1.0.4",
+  "version": "1.0.8",
   "description": "A color list manager for React",
   "main": "index.js",
   "babel": {
